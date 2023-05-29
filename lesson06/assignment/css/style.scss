@@ -4,3 +4,65 @@
 @import 'settings.responsive';
 @import 'components.content';
 
+.navbar {
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+#musubi {
+    width: 20%;
+    margin: auto;
+    .carousel-caption h6 {
+        color: $yellow;
+    }
+}
+
+.jumbotron {
+    background-color: $lightBlue!important;
+    color: $purpleColor!important;
+}
+
+.container {
+    padding: 5rem;
+    background-color: $lightBlue;
+}
+
+.card {
+    .card-header {
+        background-color: $purpleColor!important;
+    }
+    .card-link {
+        color: $yellow;
+    }
+    .card-body {
+        color: $lightBlue;
+    }
+}
+
+.col {
+    border: 1px solid $purpleColor;
+}
+
+button {
+    width: 12rem;
+    box-shadow: 3px 3px $purpleColor;
+}
+
+.container-fluid {
+    .top, .bottom {
+        height: 6rem;
+    }
+    .middle {
+        height: 30rem;
+    }
+}
+
+@media (max-width: 375px)
+{
+    .carousel-caption {
+        display: none;
+    }
+    .images-heading {
+        font-size: 2rem;
+    }
+}

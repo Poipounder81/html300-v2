@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link to css stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- bootstrap css link -->
+    <!-- https://getbootstrap.com/docs/4.0/getting-started/introduction/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- bootstrap JS link -->
+    <!-- https://getbootstrap.com/docs/4.0/getting-started/introduction/ --> 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <title>TOP 3 Musubi</title>
+  </head>
+
+  <body>
+    <main class="main">
+
+      <!-- navigation bar with links to 4 pages -->
+      <nav class="navbar navbar-expand-sm bg-dark justify-content-end">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"> HOME </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="top-3.html"> TOP 3 </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html"> MENU </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us.html"> CONTAC US </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- jumbotron container -->
+      <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+          <h1 class="text-center images-heading"> OUR TOP 3 Musubi Menu Items </h1>
+        </div>
+
+        <!-- carousel -->
+        <div id="movies" class="carousel slide" data-ride="carousel">
+
+          <!-- indicators so user knows how many slides there are and which one has current focus -->
+          <ul class="carousel-indicators">
+            <li data-target="#movies" class="active"></li>
+            <li data-target="#movies"></li>
+            <li data-target="#movies"></li>
+          </ul>
+
+          <!-- creates the slideshow of the top 3 musubi menu items -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="rounded mx-auto d-block w-25" src="./images/top-1.jpg" alt="Spam Musubi">
+              <div class="carousel-caption">
+                <br>
+                <h6 class="text-dark">#1 - Spam Musubi</h6>
+              </div>
+            </div>
+            
+            <div class="carousel-item">
+              <img class="rounded mx-auto d-block w-25" src="./images/top-2.jpg" alt="Teriyaki Chicken Musubi">
+              <div class="carousel-caption">
+                <h6 class="text-dark">#2 - Teriyaki Chicken Musubi</h6>
+              </div>
+            </div>
+            
+            <div class="carousel-item">
+              <img class="rounded mx-auto d-block w-25" src="./images/top-3.jpg" alt="Chicken Katsu Musubi">
+              <div class="carousel-caption">
+                <h6 class="text-dark">#3 - Chicken Katsu Musubi</h6>
+              </div>
+            </div>
+          </div>
+
+          <a class="carousel-control-prev" data-slide="prev" href="#musubi">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+
+          <a class="carousel-control-next" data-slide="next" href="#musubi">
+            <span class="carousel-control-next-icon"> </span>
+          </a>
+        </div>
+      </div>
+    </main>
+  </body>
+
+</html>

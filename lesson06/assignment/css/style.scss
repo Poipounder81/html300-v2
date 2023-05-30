@@ -18,23 +18,23 @@
 }
 
 .jumbotron {
-    background-color: $lightBlue!important;
-    color: $purpleColor!important;
+    background-color: $lightgray!important;
+    color: $blue!important;
 }
 
 .container {
     padding: 5rem;
-    background-color: $lightBlue;
+    background-color: $lightgray;
 }
 
-.card {
-    .card-header {
+.accordion {
+    .accordion-header {
         background-color: $purpleColor!important;
     }
-    .card-link {
-        color: $yellow;
+    .accordion-button {
+        color: $lightBlue;
     }
-    .card-body {
+    .accordion-body {
         color: $lightBlue;
     }
 }
@@ -44,8 +44,8 @@
 }
 
 button {
-    width: 12rem;
-    box-shadow: 3px 3px $purpleColor;
+    width: 20rem;
+    box-shadow: 3px 3px $lightBlue;
 }
 
 .container-fluid {
